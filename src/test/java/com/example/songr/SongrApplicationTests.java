@@ -14,10 +14,10 @@ class SongrApplicationTests {
 
 	@Test
 	public void ablumsTest(){
-		Albums newAlbum = new Albums( 24, 24, "Sad Life" ,"image URL", "Osaid");
+		Albums newAlbum = new Albums( 24, 24, "Sad Life" ,"image URL", "hamzeh");
 
 		Assertions.assertEquals("Sad Life",newAlbum.getTitle());
-		Assertions.assertEquals("Osaid",newAlbum.getArtist());
+		Assertions.assertEquals("hamzeh",newAlbum.getArtist());
 		Assertions.assertEquals(24,newAlbum.getLength());
 		Assertions.assertEquals(8,newAlbum.getSongCount());
 		Assertions.assertEquals("image URL",newAlbum.getImageUrl());
