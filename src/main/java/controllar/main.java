@@ -1,7 +1,10 @@
 package controllar;
 
+import Repository.REPO;
 import classes.Albums;
 import classes.capitalize;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.util.MultiValueMap;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -9,14 +12,21 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestHeader;
 import org.springframework.web.bind.annotation.RequestParam;
 
+import javax.persistence.Entity;
 import java.util.ArrayList;
 import java.util.List;
-
+//@RequestParam(name = "name" , defaultValue = "World" , required = false) String name , Model model
+@Controller
 public class main {
 
+    @Autowired
+    REPO Repo;
+
     @GetMapping("/hello")
-    public String hello (@RequestParam(name = "name" , defaultValue = "World" , required = false) String name , Model model){
-        model.addAttribute("name",name);
+    public String hello (){
+       // Albums albums = new Albums(5 , 5 , "hamzeh" , "url" , "hamzeh");
+       // model.addAttribute("name",name);
+       // Repo.save(albums);
         return "helloWorld";
     }
 
