@@ -1,18 +1,55 @@
 package classes;
 
 public class Albums {
-
+    private int id;
     private int length;
     private int songCount;
     private String title;
     private String imageUrl;
     private String artist;
 
-    public Albums(int length, int songCount, String title, String imageUrl, String artist) {
-        this.length = length;
-        this.songCount = songCount;
+    public Albums() {
+
+    }
+
+    public Albums(int id, int length, int songCount, String title, String imageUrl, String artist) {
+        this.id = id;
         this.title = title;
+        this.artist = artist;
+        this.songCount = songCount;
+        this.length = length;
+
+
         this.imageUrl = imageUrl;
+
+    }
+
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    public void setLength(int length) {
+        this.length = length;
+    }
+
+    public void setSongCount(int songCount) {
+        this.songCount = songCount;
+    }
+
+    public void setTitle(String title) {
+        this.title = title;
+    }
+
+    public void setImageUrl(String imageUrl) {
+        this.imageUrl = imageUrl;
+    }
+
+    public void setArtist(String artist) {
         this.artist = artist;
     }
 
@@ -36,3 +73,4 @@ public class Albums {
         return artist;
     }
 }
+
