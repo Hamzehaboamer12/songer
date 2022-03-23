@@ -5,14 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="81b710fe-d4e9-424f-945d-025ee29dfd0c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/controllar/GreetingsController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/Tamplet/UpperCase.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/Tamplet/albums.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/Tamplet/hello.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/Tamplet/home.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/style/styles.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.4.1/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.4.1/checksums/checksums.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.4.1/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.4.1/checksums/md5-checksums.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.4.1/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.4.1/checksums/sha1-checksums.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.4.1/dependencies-accessors/dependencies-accessors.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.4.1/dependencies-accessors/dependencies-accessors.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.4.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.4.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.4.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.4.1/executionHistory/executionHistory.lock" afterDir="false" />
@@ -20,13 +14,17 @@
       <change beforePath="$PROJECT_DIR$/.gradle/7.4.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.4.1/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.4.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.4.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/classes/Albums.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/classes/Albums.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/songr/SongrApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/songr/SongrApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/controllar/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controllar/main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/classes/Albums.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/songr/classes/Albums.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/classes/capitalize.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/songr/classes/capitalize.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controllar/GreetingsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/songr/controllar/GreetingsController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controllar/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/songr/controllar/main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Tamplet/UpperCase.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Tamplet/UpperCase.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Tamplet/hello.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Tamplet/hello.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Tamplet/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Tamplet/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/example/songr/SongrApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/songr/SongrApplicationTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -54,8 +52,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="HTML File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -97,9 +95,13 @@
       <recent name="C:\Users\Hamzeh Abu Amer\songer\songr" />
       <recent name="C:\Users\Hamzeh Abu Amer\songer" />
     </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="app" type="Application" factoryName="Application">
+      <option name="ALTERNATIVE_JRE_PATH" value="$PROJECT_DIR$/../../../Program Files/Java/jdk-14.0.2" />
       <option name="MAIN_CLASS_NAME" value="com.example.songr.SongrApplication" />
       <module name="songr.main" />
       <method v="2">
