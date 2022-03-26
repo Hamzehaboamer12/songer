@@ -1,12 +1,38 @@
 package classes;
 
+import org.springframework.data.annotation.Id;
+
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+
+@Entity
 public class Albums {
+    @javax.persistence.Id
+    @Column(name = "idu", nullable = false)
+    private Long idu;
+
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private Long id;
 
     private int length;
     private int songCount;
     private String title;
     private String imageUrl;
     private String artist;
+
+    public Long getIdu() {
+        return idu;
+    }
+
+    public void setIdu(Long idu) {
+        this.idu = idu;
+    }
+
+    public Albums() {
+    }
 
     public Albums(int length, int songCount, String title, String imageUrl, String artist) {
         this.length = length;
