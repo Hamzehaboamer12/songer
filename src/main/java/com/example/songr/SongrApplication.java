@@ -8,6 +8,8 @@ import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 
 @SpringBootApplication
+@ComponentScan(basePackages={"com.technicalkeeda"})
+
 @EnableAutoConfiguration(exclude={DataSourceAutoConfiguration.class})
 //@ComponentScan
 @Configuration
