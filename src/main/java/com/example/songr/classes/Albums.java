@@ -1,6 +1,13 @@
 package com.example.songr.classes;
 
+import javax.annotation.Generated;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+
 public class Albums {
+
+
     private int id;
     private int length;
     private int songCount;
@@ -12,14 +19,13 @@ public class Albums {
 
     }
 
-    public Albums(int id, int length, int songCount, String title, String imageUrl, String artist) {
+
+    public Albums( int id , int length, int songCount, String title, String imageUrl, String artist) {
         this.id = id;
         this.title = title;
         this.artist = artist;
         this.songCount = songCount;
         this.length = length;
-
-
         this.imageUrl = imageUrl;
 
     }

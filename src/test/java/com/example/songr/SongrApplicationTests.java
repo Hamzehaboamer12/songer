@@ -24,7 +24,7 @@ class SongrApplicationTests {
 	 */
 	@Test
 	public void testConstructorWithValues(){
-		test = new Albums(1 , 56, 12 , "hamzeh" , "hazmeh" , "hamzeh");
+		//test = new Albums(1 , 56, 12 , "hamzeh" , "hazmeh" , "hamzeh");
 		Assertions.assertNotNull(test.getArtist());
 	}
 
@@ -34,7 +34,7 @@ class SongrApplicationTests {
 
 	@Test
 	public void testGetters(){
-        test = new Albums(1 , 56, 12 , "hamzeh" , "hazmeh" , "hamzeh");
+        //test = new Albums(1 , 56, 12 , "hamzeh" , "hazmeh" , "hamzeh");
 		Assertions.assertEquals("My way",test.getTitle());
 		Assertions.assertEquals("frank sinatra",test.getArtist());
 		Assertions.assertEquals(10,test.getSongCount());
