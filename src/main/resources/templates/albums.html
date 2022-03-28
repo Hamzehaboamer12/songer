@@ -19,12 +19,15 @@
 <div>
     <div method="GET" th:each="obj : ${albums}">
 
-        <img th:src="${obj.imageUrl}" th:alt="${obj.title}"/>
+
         <p th:text="${obj.id}"></p>
+        <img th:src="${obj.imageUrl}" th:alt="${obj.title}"/>
         <p th:text="${obj.title}"></p>
         <p th:text="${obj.artist}"></p>
         <p th:text="${obj.songCount}"></p>
         <p th:text="${obj.length}"></p>
+
+        
 
 
     </div>
