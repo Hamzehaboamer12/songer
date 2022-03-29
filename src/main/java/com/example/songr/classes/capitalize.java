@@ -1,4 +1,4 @@
-package classes;
+package com.example.songr.classes;
 
 import java.util.Locale;
 

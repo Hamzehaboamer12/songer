@@ -1,18 +1,14 @@
-package classes;
+package com.example.songr.classes;
 
-import org.springframework.data.annotation.Id;
+//import org.springframework.data.annotation.Id;
 
-import javax.persistence.Column;
+import javax.persistence.Id;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 
 @Entity
 public class Albums {
-    @javax.persistence.Id
-    @Column(name = "idu", nullable = false)
-    private Long idu;
-
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
@@ -23,13 +19,7 @@ public class Albums {
     private String imageUrl;
     private String artist;
 
-    public Long getIdu() {
-        return idu;
-    }
 
-    public void setIdu(Long idu) {
-        this.idu = idu;
-    }
 
     public Albums() {
     }
@@ -40,6 +30,14 @@ public class Albums {
         this.title = title;
         this.imageUrl = imageUrl;
         this.artist = artist;
+    }
+
+    public Long getId() {
+        return id;
+    }
+
+    public void setId(Long id) {
+        this.id = id;
     }
 
     public int getLength() {
